@@ -1,0 +1,22 @@
+cd desktop
+md gittest
+cd gittest
+git init
+copy NUL index.html
+copy NUL style.css
+copy NUL aboutMe.txt
+git add .
+git status
+git commit -m "Created initial files"
+git status
+git add .
+git commit -m "updated aboutMe"
+git status
+git add .
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n HEAD
+git status
+git add .
+git commit -m "removed favorite movie, updated with favorite book"
+git log

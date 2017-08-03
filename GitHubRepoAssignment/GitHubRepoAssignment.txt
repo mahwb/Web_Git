@@ -1,0 +1,12 @@
+git remote add origin https://github.com/mahwb/GitHubRepoAssignment.git
+git push -u origin master
+cd Desktop\DojoAssignment\WebFundamentals\Git\GitHubRepoAssignment
+git init
+copy NUL readme.md
+git add .
+git commit -m "Created readme file"
+copy NUL GitHubRepoAssignment.txt
+git add .
+git commit -m "Created GitHubRepoAssignment.txt"
+git remote add origin https://github.com/mahwb/GitHubRepoAssignment.git
+git push -u origin master

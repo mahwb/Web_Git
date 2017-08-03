@@ -1,0 +1,11 @@
+cd DojoAssignments\WebFundamentals\Git\basic_repo
+git init
+copy NUL commands.txt
+copy NUL test.txt
+git add .
+git status
+git commit -m "creating testing files"
+git add .
+git commit -m "updated commands files"
+git remote add origin https://github.com/mahwb/basic_repo.git
+git push -u origin master
